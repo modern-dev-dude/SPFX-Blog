@@ -10,7 +10,6 @@ import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
 import * as strings from 'HelloWorldWebPartStrings';
 import HelloWorld from './components/HelloWorld';
 import { IHelloWorldProps } from './components/IHelloWorldProps';
-
 export interface IHelloWorldWebPartProps {
   description: string;
 }
@@ -21,7 +20,7 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
     const element: React.ReactElement<IHelloWorldProps> = React.createElement(
       HelloWorld,
       {
-        description: this.properties.description
+        spfxContext: this.context
       }
     );
 
