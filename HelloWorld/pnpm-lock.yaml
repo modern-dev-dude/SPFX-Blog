@@ -20,6 +20,7 @@ specifiers:
   gulp: ~4.0.2
   gulp-sequence: ^1.0.0
   gulp-stylelint: ^13.0.0
+  lodash: ^4.17.21
   office-ui-fabric-react: 7.156.0
   react: 16.9.0
   react-dom: 16.9.0
@@ -36,6 +37,7 @@ dependencies:
   '@microsoft/sp-property-pane': 1.12.1_58abe8ba671f27d998181fcf7bb125d7
   '@microsoft/sp-webpart-base': 1.12.1_58abe8ba671f27d998181fcf7bb125d7
   '@pnp/spfx-controls-react': 3.2.1_58abe8ba671f27d998181fcf7bb125d7
+  lodash: 4.17.21
   office-ui-fabric-react: 7.156.0_c129be21209ec549b9ba61bf76d54bcc
   react: 16.9.0
   react-dom: 16.9.0_react@16.9.0

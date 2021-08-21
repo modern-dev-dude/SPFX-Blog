@@ -1,7 +1,7 @@
 import { Stack, IStackProps, Text } from "@fluentui/react";
 import * as React from 'react';
 import { useSpfxContext } from "./ContextWrapper.tsx";
-
+import {startCase} from 'lodash'; 
 const stackProps : IStackProps ={
     tokens:{
         childrenGap:10,
@@ -38,7 +38,7 @@ const DeepNestetedComponent = () => {
                             key={`PageContextLabelItem_${idx}`}
                             variant='xLarge'
                             >
-                                {item}:
+                                {startCase(item)}:
                             </Text>
                             <Text 
                                 key={`PageContextItem_${idx}`}
